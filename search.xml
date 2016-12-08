@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  
+    
+    <entry>
+      <title><![CDATA[Swift知识集1]]></title>
+      <url>%2F2016%2F12%2F08%2FSwift%E7%9F%A5%E8%AF%86%E9%9B%861%2F</url>
+      <content type="text"></content>
+    </entry>
+
+    
+    <entry>
+      <title><![CDATA[MappingAce, Swift JSON转struct class， 从此可以告别手动key映射]]></title>
+      <url>%2F2016%2F12%2F08%2FMappingAce-Swift-JSON%E8%BD%ACstruct-class%EF%BC%8C-%E4%BB%8E%E6%AD%A4%E5%8F%AF%E4%BB%A5%E5%91%8A%E5%88%AB%E6%89%8B%E5%8A%A8key%E6%98%A0%E5%B0%84%2F</url>
+      <content type="text"></content>
+    </entry>
+
+    
+    <entry>
+      <title><![CDATA[使用hexo搭建github博客]]></title>
+      <url>%2F2016%2F12%2F08%2F%E4%BD%BF%E7%94%A8hexo%E6%90%AD%E5%BB%BAgithub%E5%8D%9A%E5%AE%A2%2F</url>
+      <content type="text"><![CDATA[命令安装hexo12345npm install hexo-cli -ghexo init blogcd blognpm installhexo server 新建网站 init1hexo init [folder] 新建文章 new1hexo new [layout] &lt;title&gt; 新建一篇文章。如果没有设置 layout 的话，默认使用 _config.yml 中的 default_layout 参数代替。如果标题包含空格的话，请使用引号括起来。 生成静态文件 generate1hexo generate 选项 描述 -d, –deploy 文件生成后立即部署网站 -w, –watch 监视文件变动 发表草稿 publish1hexo publish [layout] &lt;filename&gt; 启动服务器 server1hexo server 默认访问网址为：http://localhost:4000 选项 描述 -p, –port 重设端口 -s, –static 只使用静态文件 -l, –log 启动日记记录，使用覆盖记录格式 部署网站 deploy1hexo deploy 更多命令详见官方文档 标签云页面 新建页面 命名为tags 1hexo new page &quot;tags&quot; 编辑 页面， 并将页面的类型设置为tags 1234title: Tagclouddate: 2014-12-22 12:39:04type: &quot;tags&quot;--- 关闭标签的评论 12345title: Tagclouddate: 2014-12-22 12:39:04type: &quot;tags&quot;comments: false--- 在菜单中添加链接 1234menu: home: / archives: /archives tags: /tags 创建分类页面设置侧边栏社交链接编辑站点的 _config.yml，新增字段 social1234# Social linkssocial: github: https://github.com/githubname weibo: http://weibo.com/weiboname 显示feed链接在主题的_config.yml中 禁用feed rss: false rss: 当值为空时 默认会使用站点的Feed链接【需使用[ hexo-generator-feed]插件生成Feed】 添加文章阅读统计]]></content>
+    </entry>
+
+    
+  
+  
+</search>
