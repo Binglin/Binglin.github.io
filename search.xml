@@ -3,6 +3,13 @@
   
     
     <entry>
+      <title><![CDATA[使用gitlab+hexo搭建文档系统]]></title>
+      <url>%2F2016%2F12%2F15%2F%E4%BD%BF%E7%94%A8gitlab-hexo%E6%90%AD%E5%BB%BA%E6%96%87%E6%A1%A3%E7%B3%BB%E7%BB%9F%2F</url>
+      <content type="text"><![CDATA[官方demo12git clone https://gitlab.com/pages/hexo.gitcd hexo 生成静态页面1hexo generate 页面位置namespace.gitlab.io , namespace 是你的用户名或者组 和github的基本一样 工程 page 新建一个工程 将.gitlab-ci.yml文件放入根目录 使用GitLab Runner编译网页 用户的工程在http(s)://username.example.io/projectname下组的工程在http(s)://groupname.example.io/projectname下 .gitlab-ci.yml page名字： 所有Gitlab-Pages 的静态内容需要放在public/文件夹下 artifacts with a path to the public/ directory must be defined eg:123456pages: script: - my_commands artifacts: path: - public 更多内容可查看官方文档]]></content>
+    </entry>
+
+    
+    <entry>
       <title><![CDATA[Swift知识集1]]></title>
       <url>%2F2016%2F12%2F08%2FSwift%E7%9F%A5%E8%AF%86%E9%9B%861%2F</url>
       <content type="text"></content>
