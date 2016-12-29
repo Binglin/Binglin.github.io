@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-12-16T08:42:44.000Z</updated>
+  <updated>2016-12-29T09:01:17.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -20,11 +20,22 @@
     <link href="http://yoursite.com/2016/12/16/React-Native%E4%B9%8BHello-world/"/>
     <id>http://yoursite.com/2016/12/16/React-Native之Hello-world/</id>
     <published>2016-12-16T07:38:10.000Z</published>
-    <updated>2016-12-16T08:42:44.000Z</updated>
+    <updated>2016-12-29T09:01:17.000Z</updated>
     
     <summary type="html">
     
-      &lt;p&gt;#开发环境&lt;br&gt;假定你已安装&lt;code&gt;atom&lt;/code&gt;, 并安装&lt;code&gt;atom&lt;/code&gt;的&lt;code&gt;Nucide&lt;/code&gt;插件&lt;br&gt;&lt;a href=&quot;https://nuclide.io/docs/editor/basics/#command-p
+      &lt;p&gt;#开发环境&lt;br&gt;假定你已安装&lt;code&gt;atom&lt;/code&gt;, 并安装&lt;code&gt;atom&lt;/code&gt;的&lt;code&gt;Nucide&lt;/code&gt;插件&lt;br&gt;&lt;a href=&quot;https://nuclide.io/docs/editor/basics/#command-palette&quot;&gt;&lt;code&gt;atom&lt;/code&gt;使用指南&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;调用控制面板&lt;code&gt;Cmd+Shift-P&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;#所需环境&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;node &lt;code&gt;brew install node&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;watchman &lt;code&gt;brew install watchman&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;React Native CLI &lt;code&gt;npm install -g react-native-cli&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;XCode&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&quot;测试React-Native是否安装&quot;&gt;&lt;a href=&quot;#测试React-Native是否安装&quot; class=&quot;headerlink&quot; title=&quot;测试React Native是否安装&quot;&gt;&lt;/a&gt;测试React Native是否安装&lt;/h1&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;3&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;react-native init HelloWorld&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;cd HelloWorld&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;react-native run-ios&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
     
     </summary>
     
@@ -40,58 +51,17 @@
     <link href="http://yoursite.com/2016/12/15/%E4%BD%BF%E7%94%A8gitlab-hexo%E6%90%AD%E5%BB%BA%E6%96%87%E6%A1%A3%E7%B3%BB%E7%BB%9F/"/>
     <id>http://yoursite.com/2016/12/15/使用gitlab-hexo搭建文档系统/</id>
     <published>2016-12-15T05:56:02.000Z</published>
-    <updated>2016-12-15T08:57:06.000Z</updated>
+    <updated>2016-12-29T09:01:47.000Z</updated>
     
     <summary type="html">
     
-      &lt;h2 id=&quot;官方demo&quot;&gt;&lt;a href=&quot;#官方demo&quot; class=&quot;headerlink&quot; title=&quot;官方demo&quot;&gt;&lt;/a&gt;&lt;a href=&quot;https://gitlab.com/pages/hexo&quot; target=&quot;_blank&quot; rel=&quot;externa
+      &lt;h2 id=&quot;官方demo&quot;&gt;&lt;a href=&quot;#官方demo&quot; class=&quot;headerlink&quot; title=&quot;官方demo&quot;&gt;&lt;/a&gt;&lt;a href=&quot;https://gitlab.com/pages/hexo&quot;&gt;官方demo&lt;/a&gt;&lt;/h2&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;git clone https://gitlab.com/pages/hexo.git&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;cd hexo&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;生成静态页面&lt;br&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;hexo generate&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;页面位置&lt;code&gt;namespace.gitlab.io&lt;/code&gt; , &lt;code&gt;namespace&lt;/code&gt; 是你的用户名或者组&lt;/p&gt;
+&lt;p&gt;和&lt;code&gt;github&lt;/code&gt;的基本一样&lt;br&gt;
     
     </summary>
     
-    
-  </entry>
-  
-  <entry>
-    <title>Swift知识集1</title>
-    <link href="http://yoursite.com/2016/12/08/Swift%E7%9F%A5%E8%AF%86%E9%9B%861/"/>
-    <id>http://yoursite.com/2016/12/08/Swift知识集1/</id>
-    <published>2016-12-08T06:50:00.000Z</published>
-    <updated>2016-12-08T07:53:18.000Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-      <category term="iOS" scheme="http://yoursite.com/categories/iOS/"/>
-    
-      <category term="Swift" scheme="http://yoursite.com/categories/iOS/Swift/"/>
-    
-    
-      <category term="小技巧" scheme="http://yoursite.com/tags/%E5%B0%8F%E6%8A%80%E5%B7%A7/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>MappingAce, Swift JSON转struct class， 从此可以告别手动key映射</title>
-    <link href="http://yoursite.com/2016/12/08/MappingAce-Swift-JSON%E8%BD%ACstruct-class%EF%BC%8C-%E4%BB%8E%E6%AD%A4%E5%8F%AF%E4%BB%A5%E5%91%8A%E5%88%AB%E6%89%8B%E5%8A%A8key%E6%98%A0%E5%B0%84/"/>
-    <id>http://yoursite.com/2016/12/08/MappingAce-Swift-JSON转struct-class，-从此可以告别手动key映射/</id>
-    <published>2016-12-08T06:47:42.000Z</published>
-    <updated>2016-12-08T08:01:18.000Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-      <category term="iOS" scheme="http://yoursite.com/categories/iOS/"/>
-    
-      <category term="Swift" scheme="http://yoursite.com/categories/iOS/Swift/"/>
-    
-    
-      <category term="Swift" scheme="http://yoursite.com/tags/Swift/"/>
-    
-      <category term="JSON" scheme="http://yoursite.com/tags/JSON/"/>
-    
-      <category term="struct" scheme="http://yoursite.com/tags/struct/"/>
     
   </entry>
   
@@ -100,11 +70,13 @@
     <link href="http://yoursite.com/2016/12/08/%E4%BD%BF%E7%94%A8hexo%E6%90%AD%E5%BB%BAgithub%E5%8D%9A%E5%AE%A2/"/>
     <id>http://yoursite.com/2016/12/08/使用hexo搭建github博客/</id>
     <published>2016-12-08T03:30:47.000Z</published>
-    <updated>2016-12-08T08:23:59.000Z</updated>
+    <updated>2016-12-29T09:02:07.000Z</updated>
     
     <summary type="html">
     
-      &lt;h1 id=&quot;命令&quot;&gt;&lt;a href=&quot;#命令&quot; class=&quot;headerlink&quot; title=&quot;命令&quot;&gt;&lt;/a&gt;命令&lt;/h1&gt;&lt;h2 id=&quot;安装hexo&quot;&gt;&lt;a href=&quot;#安装hexo&quot; class=&quot;headerlink&quot; title=&quot;安装hexo&quot;&gt;&lt;/a&gt;安
+      &lt;h1 id=&quot;命令&quot;&gt;&lt;a href=&quot;#命令&quot; class=&quot;headerlink&quot; title=&quot;命令&quot;&gt;&lt;/a&gt;命令&lt;/h1&gt;&lt;h2 id=&quot;安装hexo&quot;&gt;&lt;a href=&quot;#安装hexo&quot; class=&quot;headerlink&quot; title=&quot;安装hexo&quot;&gt;&lt;/a&gt;安装&lt;a href=&quot;https://hexo.io/docs/&quot;&gt;hexo&lt;/a&gt;&lt;/h2&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;3&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;4&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;5&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;npm install hexo-cli -g&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;hexo init blog&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;cd blog&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;npm install&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;hexo server&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h2 id=&quot;新建网站-init&quot;&gt;&lt;a href=&quot;#新建网站-init&quot; class=&quot;headerlink&quot; title=&quot;新建网站 init&quot;&gt;&lt;/a&gt;新建网站 &lt;code&gt;init&lt;/code&gt;&lt;/h2&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;hexo init [folder]&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h2 id=&quot;新建文章-new&quot;&gt;&lt;a href=&quot;#新建文章-new&quot; class=&quot;headerlink&quot; title=&quot;新建文章 new&quot;&gt;&lt;/a&gt;新建文章 &lt;code&gt;new&lt;/code&gt;&lt;/h2&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;hexo new [layout] &amp;lt;title&amp;gt;&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
     
     </summary>
     
